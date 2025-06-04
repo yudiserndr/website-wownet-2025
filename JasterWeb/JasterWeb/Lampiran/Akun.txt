@@ -1,0 +1,16 @@
+
+// --==-- WEBSITE --==--
+[+] User  : admwownet
+[+] Pass  : wowinternet
+[+] LINK  : https://wow.net.id/in
+
+// --==-- GMAIL --==--
+[+] Email : cswownet.tek@gmail.com
+[+] Pass  : 1nt3rn3t
+[+] LINK  : gmail.com
+
+// --==-- Tawk.to --==--
+[+] Name : WowRack
+[+] Email : cswownet.tek@gmail.com
+[+] Pass  : 1nt3rn3T
+[+] LINK  : tawk.to
