@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" class="has-scroll-init has-scroll-smooth" data-scroll-direction="vertical" style>
+<head>
+  <!---boxicons link--->
+  <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+  <!---remixicons link--->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+
+  <!---google fonts link--->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  </head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WOWNET | Infinite Possibilities</title>
+
+  <!-- CSS STYLE -->
+  <style>
+    * 
+    body, html 
+    {
+      font-family: Poppins, sans-serif;
+      scroll-behavior: smooth;
+    }
+
+    .parallax-section 
+    {
+      height: 100vh;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-align: center;
+    }
+
+    .parallax-1 
+    {
+      background-image: url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1600&q=80');
+    }
+
+    .parallax-2 
+    {
+      background-image: url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1600&q=80');
+    }
+
+    .content-section 
+    {
+      padding: 60px 60px;
+      background-color: #0AA3DB;
+      text-align: center;
+    }
+    p 
+    {
+      font-family: Poppins, sans-serif;
+      font-size: 1.2em;
+      max-width: 700px;
+      margin: 20px auto;
+      color: white;
+    }
+
+    @media (max-width: 768px) 
+    {
+      p 
+      {
+        font-size: 1em;
+      }
+    }
+        body {
+
+            display: flex;
+            align-items: initial;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            flex-direction: column;
+        }
+        .container {
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        /* NAVBAR LIST home, services, about */
+        nav {
+            margin-top: auto;  
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+        nav a {
+            color: #0AA3DB;
+            margin-left: 60px;
+            font-size: 15px;
+            font-weight: 600;
+            border-bottom: 2px solid white;
+            text-decoration: none;
+            transition: all .55s ease;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        
+    </style>
+    <header>
+        <nav>
+          <img src="assets/images/Logo_WOWNET_ WHITE_COLOR.png" alt="Logo" width="180" height="46" style="margin: 25px;" class="absolute-png">
+          <a href="aboutus.html" alt="Navbar" height="relative" style="margin: 50px;">About Us</a>
+          <a href="services.html" alt="Navbar" height="relative" style="margin: 50px;">Services</a>
+          <a href="contactus.html"alt="Navbar" height="relative" style="margin: 50px;">Contact Us</a>
+        </nav>
+    </header>
+
+<!-- HTML CODE -->
+<body>
+<div class="wp-nav-mobile" style="position: relative; z-index: 999;">
+
+  <div class="parallax-section parallax-1">
+    <h1>
+      <img src="assets/images/Tagline_01_TeksPutih.png" alt="Tagline Wownet 01" style="vertical-align: middle; height: 100px;">
+    </h1>
+  </div>
+
+  <div class="content-section">
+    <h2>Reliable Internet for Smart Living</h2>
+    <p>
+      WOWNET menyediakan layanan internet fiber cepat, stabil, dan aman untuk rumah dan bisnis Anda. Solusi cerdas untuk generasi digital.
+    </p>
+  </div>
+
+  <div class="parallax-section parallax-2">
+    <h1>Smart Connection</h1>
+  </div>
+
+  <div class="content-section">
+    <h2>Hubungkan Masa Depanmu</h2>
+    <p>
+      Dengan dukungan 24/7 dan infrastruktur modern, WOWNET membawa Anda ke dunia digital tanpa batas.
+    </p>
+  </div>
+</body>
+</html>
